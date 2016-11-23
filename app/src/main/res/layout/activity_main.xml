@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- vertical은 순서대로 쌓임 -->
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check me!" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="켜기"
+        android:textOn="끄기" />
+
+    <TextView
+        android:id="@+id/radioChecker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/checkboxChecker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/toggleButtonChecker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
